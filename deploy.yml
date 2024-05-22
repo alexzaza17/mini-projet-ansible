@@ -1,0 +1,8 @@
+---
+- name: Apply Apache Docker role
+  hosts: prod
+  become: true
+  vars_files:
+    - files/secrets/credentials.yml
+  roles:
+    - apache_docker
