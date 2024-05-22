@@ -3,6 +3,6 @@
   hosts: prod
   become: true
   vars_files:
-    - files/secrets/credentials.yml
+    - files/secrets/credentials.vault
   roles:
     - apache_docker
