@@ -9,4 +9,9 @@ Il est question ici pour nous de mettre en place un code Ansible qui nous permet
 - Le dossier files/secrets contient le fichier credentials.vault qui permettra de securiser la connexion
 - Le dossier role qui contient le dossier apache_docker qui va etre appeler dans lorsqu on va lance la commande ansible playbook avec le fichier deploy.yml. le dossier apache_docker contient le tasks qui lui a son tour contient deux fichiers a savoir main.yml et le pre-tasks.yml
 - Le fichier deploy.yml qui sera lance dans la commande notre Ansible playbook pour executer la configuration
-- Le host.yml qui contient les adresses ip de la machine cliente a configurer lui aussi sera lance dans notre commande Ansible playbook  
+- Le host.yml qui contient les adresses ip de la machine cliente a configurer lui aussi sera lance dans notre commande Ansible playbook
+
+
+![Client](https://github.com/alexzaza17/mini-projet-ansible2/assets/159175882/128b9c9e-1eca-4ca0-a318-3023ce370281)
+
+![sudo-docker-ps](https://github.com/alexzaza17/mini-projet-ansible2/assets/159175882/3222362c-eee8-470f-981a-e6385e11a3c0)
